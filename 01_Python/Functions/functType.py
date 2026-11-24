@@ -1,52 +1,56 @@
-#three types of functions
-# 1. mathematical functions
+
+# Three Types of Functions
+
+# 1. Mathematical Functions
+
 import math
-a=10
-#Square root
-print(math.sqrt(a))
 
-#factorial
-print(math.factorial(a))
+a = 10
 
-#Power
-print(math.pow(a,3))
+# Calculates square root
+print("Square Root:", math.sqrt(a))
 
-#Rounds upward
-print(math.ceil(4.5))
+# Calculates factorial
+print("Factorial:", math.factorial(a))
 
-#Rounds downward
-print(math.floor(4.8))
+# Calculates power
+print("Power:", math.pow(a, 3))
+
+# Rounds upward
+print("Ceiling:", math.ceil(4.5))
+
+# Rounds downward
+print("Floor:", math.floor(4.8))
 
 
-# 2. Random functions
+# 2. Random Functions
 
 # Importing random module
 import random
 
-# Generating a random number between 1 and 10
-print(random.randint(1, 10))
+# Generates a random number between 1 and 10
+print("Random Number:", random.randint(1, 10))
 
 # Selecting a random item from a list
 names = ["Rahul", "Amit", "Priya", "Sneha"]
 
-print(random.choice(names))
+print("Random Name:", random.choice(names))
 
 
-# 3. Trigonometric functions
-import math
+# 3. Trigonometric Functions
 
-# Take angle from user
+# Takes angle from user
 angle = float(input("Enter angle in degrees: "))
 
-# Convert degrees into radians
+# Converts degrees into radians
 radian = math.radians(angle)
 
-# Calculate trigonometric values
+# Calculates trigonometric values
 s = math.sin(radian)
 c = math.cos(radian)
 t = math.tan(radian)
 
-# Display results
+# Displays results
 print("Sine:", s)
 print("Cosine:", c)
 print("Tangent:", t)
